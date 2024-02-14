@@ -1,0 +1,160 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+*{
+            font-family: "Roboto", sans-serif;
+            list-style: none;
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            outline: none;
+            overflow-x: none;
+            transition: all 0.5s ease;
+
+}
+.text{
+            text-align: center;
+            padding:35px;
+}
+footer .container .logo p{
+            font-size: 29px;
+            font-weight: 800;
+            color: #c0c0c0;
+            cursor: pointer;
+}
+footer .container .icons i{
+            cursor: pointer;
+            font-size: 29px;
+            margin-right: 12px;
+            border-radius: 50%;
+            color: #6A82A5;
+            padding: 4px;
+}
+footer .container .icons i:hover{
+            background: white;
+}
+footer{
+            background: #10182F;
+            color: white;
+            padding: 35px 8%;
+}
+footer .container{
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            border-bottom: 2px solid white;
+            margin-bottom: 15px;
+}
+footer .container .logo{
+            text-align: center;
+            color: black;
+}
+
+.container2{
+            background: #262432;
+            padding: 25px 8%;
+}
+
+.container2 .links{
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+}
+.container2 .links .hrefs li{
+            font-size: 15px;
+            padding: 5px;
+            cursor: pointer;
+            color: #6A82A5;
+}
+.container2 .links .hrefs ul{
+            margin-bottom: 5px;
+            font-size: 29px;
+            padding: 5px;
+            cursor: pointer;
+          
+}
+#email{
+            padding: 7px;
+            border: none;
+            background:whitesmoke;
+            border-radius: 12px;
+}
+#email::placeholder{
+            text-align: center;
+}
+#button{
+            display: flex;
+            margin: auto;
+            margin-top: 15px;
+            padding: 7px;
+            border: none;
+            border-radius: 12px;
+
+}
+#button:hover{
+            background: #262432;
+            color: white;
+}
+.container2 .links .hrefs li:hover{
+            border-bottom: 3px solid white;
+            
+}
+
+@media (max-width: 1200px){
+            footer{
+                        padding:15px 8%;
+            }
+            .container2{
+                        background: #262432;
+                        padding: 25px 8%;
+            }
+           
+}
+
+@media (max-width: 768px){
+
+            footer .container .logo p{
+                        font-size: 19px;
+                        font-weight: 600;
+                        color: #c0c0c0;
+                        cursor: pointer;
+            }
+            
+            .container2 .links{
+                      display: grid;
+                      align-items: center;
+                      
+            }
+            footer .container .icons i{
+                        cursor: pointer;
+                        font-size: 20px;
+                        margin-right: 12px;
+                        border-radius: 50%;
+                        color: #6A82A5;
+                        padding: 4px;
+            }
+            #email{
+                        padding: 5px;
+                        border: none;
+                        background:whitesmoke;
+                        margin-top:15px ;
+
+            }
+            #email::placeholder{
+                        text-align: center;
+            }
+            #button{
+                        display: flex;
+                        margin-right: 250px;
+                        margin-top: 15px;
+                        padding: 5px;
+                        border: none;
+                        
+            
+            }
+            #button:hover{
+                        background: #262432;
+                        color: white;
+            }
+            
+}
+
+
